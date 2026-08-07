@@ -136,3 +136,65 @@ header {
     background-color: #3f3fff;
     transform: translateY(-2px);
 }
+
+/* Main Section Container */
+.hero-section {
+    background-color: #f6f8fd;
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.content-area h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+
+.content-area p {
+    font-size: 1.25rem;
+    color: #9d9ea3;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.preview-btn {
+    display: inline-block;
+    background-color: #032cfc;
+    color: #ffffff;
+    padding: 14px 30px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s #8c93ff ease, transform 0.1s ease;
+}
+
+.preview-btn:hover {
+    background-color: #3f3fff;
+    transform: translateY(-2px);
+}
+
+/* Image Area Right Side */
+.image-area {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-wrapper {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 36px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px #000000;
+   
+}
