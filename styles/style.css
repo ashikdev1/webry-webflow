@@ -322,5 +322,60 @@ header {
       color: #a0a3bd;
       margin-top: 2px;
     }
+    /* Main CTA Section Container */
+    .cta-section {
+      width: 100%;
+      max-width: 1100px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* cta-heading */
+    .cta-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #1a1a2e;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .cta-subtitle {
+      font-size: 1.15rem;
+      color: #8c8e98;
+      margin-bottom: 28px;
+      font-weight: 400;
+    }
+
+    /* cta- Button */
+    .cta-button {
+      display: inline-block;
+      background-color: #5252ff;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 14px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 50px;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+      box-shadow: 0 4px 14px 0 #5252ff40;
+    }
+
+    .cta-button:hover {
+        color: #032cfc;
+      background-color: #ffffff;
+      transform: translateY(-2px);
+    }
+    .image-container img{
+        border-radius: 10px;
+       transition: ease 1s;
+    }
+    .image-container:hover img{
+        transform: translateY(-3px);
+    }
 
    
