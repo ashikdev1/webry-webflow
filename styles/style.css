@@ -32,8 +32,7 @@
 body {
 
     background-color: #F5F8FF;
-    /* width: 1200px; */
-    /* margin: 0 auto; */
+    background: #dce5ff;
 
 }
 
@@ -67,7 +66,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    
 
 }
 
@@ -85,8 +84,9 @@ header {
     border: 1px solid #000000;
     padding: 10px 40px;
     border-radius: 5px;
-    transition: background-color: 0.2s red, transfrom 0.1s;
+    transition: background-color: 0.2s, transfrom 0.1s;
     box-shadwo: 0 4px 12px 0;
+    margin-top: 10px;
 
 }
 
@@ -106,6 +106,7 @@ header {
     margin: 0 auto;
     padding-top: 100px;
     padding-bottom: 100px;
+   
 
 }
 
@@ -129,9 +130,9 @@ header {
     border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
-    transition: background-color 0.2s ease;
+   
     transition: transform 0.1s ease;
-    box-shadow: 0 4px 12px 0 #5252ff40;
+   
 }
 
 .banner-btn:hover {
@@ -139,16 +140,20 @@ header {
     transform: translateY(-2px);
 }
 
-/* Main Section Container */
+/* hero Section Container */
 .hero-section {
     background-color: #f6f8fd;
-    margin-top: 20px;
+    
     margin: 0 auto;
     padding: 20px;
     display: flex;
     align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    
 
 }
+
 
 .content-area h1 {
     font-size: 2.8rem;
@@ -240,10 +245,11 @@ header {
     font-weight: 500;
 }
 
-/* Testimonials Container */
+/* review Container */
 .review-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
     gap: 24px;
 }
 
@@ -299,7 +305,7 @@ header {
 .card-quote {
     font-size: 19px;
     color: #4c4d5e;
-    line-height: 1.5;
+    
     margin-bottom: 28px;
 }
 
@@ -324,7 +330,7 @@ header {
 }
 
 .user-details .date {
-    font-size: 22px;
+    font-size: 17px;
     color: #a0a3bd;
     margin-top: 2px;
 }
@@ -341,15 +347,15 @@ header {
 
 /* cta-heading */
 .cta-title {
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 800;
     color: #1a1a2e;
     margin-bottom: 12px;
-    letter-spacing: -0.5px;
+    
 }
 
 .cta-subtitle {
-    font-size: 1.15rem;
+    font-size: 20px;
     color: #8c8e98;
     margin-bottom: 28px;
     font-weight: 400;
@@ -498,4 +504,34 @@ header {
     border: 1px solid #032cfc;
     background-color: #ffffff;
     transform: translateY(-2px);
+}
+/* footer  */
+footer{
+background: #ffffff;
+}
+.footer-item{
+   display: flex;
+     width: 100%;
+      flex-direction: column;
+      text-align: center;
+      display: flex;
+      padding: 50px;
+      align-items: center;
+}
+.footer-photo {
+   width: 180px;
+    justify-content: center;
+    text-align: center;
+}
+.footer-contant{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+.quick-link {
+    display: flex;
+    gap: 30px;
+    color: #3f3fff;
+    align-items: center;
+    justify-content: center;
 }
